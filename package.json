@@ -1,0 +1,16 @@
+{
+  "name": "lit-html-builds",
+  "version": "0.10.2",
+  "description": "Github clone (e.g. for use with bower) for npm version of lit-html",
+  "license": "BSD-3-Clause",
+  "repository": "Polymer/lit-html",
+  "main": "lit-html.js",
+  "module": "lit-html.js",
+  "scripts": {
+    "update": "yarn add lit-html && cp -R node_modules/lit-html/* ."
+  },
+  "author": "Thomas Allmer (d4kmor@gmail.com)",
+  "dependencies": {
+    "lit-html": "^0.10.2"
+  }
+}
